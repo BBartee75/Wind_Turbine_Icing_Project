@@ -205,7 +205,9 @@ def process_Icedata(wtg, start, end):
                         (icing_df['Blds_PitchAngle_Avg'] <= 25)
                         ]
     icing_df = filter_10min_intervals(icing_df)
-    PC_file = r'C:\Users\bbartee\Desktop\SP\UL_SouthPlaines_Edgewise\V100_PC.xlsx'
+    
+    # Download the Wind Turbine OEM Power Curve
+    PC_file = r'C:\Users\XXX\Desktop\SP\xxxxx\V100_PC.xlsx'
     V100PC = pd.read_excel(PC_file)
     # add wind speed wind bins
     icing_df['WindBin'] = icing_df['Amb_WindSpeed_Avg'].apply(round_to_half)
