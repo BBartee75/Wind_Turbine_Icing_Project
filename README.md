@@ -1,5 +1,5 @@
 # Wind_Turbine_Icing_Project
-Python code to find possible blade icing based off of temps and power output imbalance
+[Python code](Possible_WTG_Icing.py) to find possible blade icing based off of temps and power output imbalance
 
 ## The Overall Goal
 To identify potential icing conditions for the wind turbines, we employ a multi-criteria approach that considers both operational states: running and stopped. For turbines in operation, we examine three key factors: ambient temperature, blade pitch angle, and power output. The ambient temperature is crucial, ranging between 3°C and -17°C, indicating potential freezing conditions. We also consider the average blade angle ('Blds_PitchAngle_Avg'), looking for values less than 25 degrees, which suggests the blades are positioned for normal operation rather than extreme weather protection. Additionally, we analyze the power output, focusing on instances where it falls below 15% of the rated power derived from the OEM power curve, categorized by wind bin increments of 0.5 m/s. This comprehensive approach helps pinpoint situations where turbines might be vulnerable to icing, even when operating normally.
