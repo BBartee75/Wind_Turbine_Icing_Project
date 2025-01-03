@@ -6,7 +6,7 @@ To identify potential icing conditions for the wind turbines, I employed a multi
 
 Additional Technical Details
 - The filtering process utilizes SCADA (Supervisory Control and Data Acquisition) parameters to ensure accurate data analysis.
-- The power curve analysis is based on wind bin divisions, allowing for precise categorization of wind speeds.
+- The [power curve](V100_PC.xlsx) analysis is based on wind bin divisions, allowing for precise categorization of wind speeds.
 - The temperature range considered (3°C to -17°C) covers typical freezing conditions that could lead to icing. <sup>4.1 , 4.2</sup>
 - The blade pitch angle threshold of 25 degrees is chosen as a balance between normal operation and extreme weather protection.
 - The power output threshold of 15% of rated power is selected to identify situations where turbines might be underperforming due to potential icing effects. <sup>4.3 , 4.4</sup> 
