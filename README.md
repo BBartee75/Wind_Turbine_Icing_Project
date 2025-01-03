@@ -12,7 +12,7 @@ Additional Technical Details
 - The power output threshold of 15% of rated power is selected to identify situations where turbines might be underperforming due to potential icing effects. <sup>4.3 , 4.4</sup> 
 - This approach provides a robust method for identifying potential icing conditions across various operational scenarios, enhancing the reliability and safety of wind turbine operations.
 
-[![Parameters Table]}(Parameters Table.png)
+![Parameters Table.png](https://github.com/BBartee75/Wind_Turbine_Icing_Project/blob/main/Parameters%20Table.jpg)
 
 ## References
 - 4.1  Scholarly journal article published in ScienceDirect: [“Phases of icing on wind turbine blades characterized by ice accumulation”](https://www.sciencedirect.com/science/article/abs/pii/S096014810900408X)
